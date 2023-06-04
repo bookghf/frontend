@@ -1,0 +1,28 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+.grid{display: grid;}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fixed{
+  position: fixed;
+}
+
+.stick{
+  position: sticky;
+}
+
+.absolute{
+  position: absolute;
+}
+.App {
+  text-align: center;
+  background-color:lightgoldenrodyellow;
+  min-width: 350px;
+}
+

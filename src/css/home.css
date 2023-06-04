@@ -1,0 +1,97 @@
+
+.home{
+    position: relative;
+}
+
+.content{
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gen{
+    height: 465px;
+    position: fixed;
+    top: 5%;
+    z-index: 2;
+}
+
+.all-gen{
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    border: 1px solid #000000;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.all-gen:hover{
+    border: none;
+    background-color: #000000;
+    box-shadow: 1px 2px 3px #000000;
+    
+}
+
+.poke-gen{
+    height: 50px;
+    width: 70px;
+    margin: 10px 10px;
+    border-radius: 15px;
+    background-color: #5adbb5;
+    color: #ffffff;
+    font-weight: 900;
+    transition: all 0.3s ease 0s;
+}
+.poke-gen:hover{
+    cursor: pointer;
+    background-color: #33b249;
+    box-shadow: 1px 2px 3px #000000;
+    transform: translateX(7px);
+}
+
+.current{
+    background-color: steelblue;
+}
+
+.show{
+    width: 80%;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+}
+
+.card{
+    border: 2px solid #000000;
+    border-radius: 10%;
+    box-shadow: 2px 2px 5px black;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    position: relative;
+    z-index: 1;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 10px black;
+    border: 3px solid #000000;
+    transform: translateY(-10px);
+}
+.name{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #c6d9ff;
+    color: #000000;
+}
+.name p{
+    margin: 10px auto;
+
+}
+.img{
+    overflow: hidden;
+    border-top: 1px solid #000000;
+    background-color: #ffffff;
+}
+.img img{
+    max-width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 515px) {
+
+}

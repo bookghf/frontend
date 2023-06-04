@@ -1,0 +1,247 @@
+
+.pokemonDetail{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.pokemonDetail a {
+    margin: 0;
+    padding: 0;
+}
+.card-detail{
+    width: max(300px,85%);
+    max-width: 1250px;
+    border: 5px solid black;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.left-side{
+    width: 50%;
+    border-right: 5px solid black;
+    background-color: #ffffff;
+}
+.detail-name p{
+    font-size: 3vw;
+    font-weight: 600;
+}
+.detail-name{
+    width: 100%;
+    margin: 30px auto;
+    text-decoration: underline;
+}
+.photo{
+    width: 100%;
+    height: auto;
+}
+.photo img{
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+.element{
+    margin:30px 0;
+}
+.type {
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    border: 3px solid #000;
+    border-radius: 30px;
+    margin:0 20px;
+}
+.fire{
+    background-color:rgb(254, 80, 0);
+    border-color: red;
+}
+.water{
+    background-color: rgb(0, 119, 255);
+    border-color: blue;
+}
+.grass {
+    background-color: rgb(20, 201, 26);
+    border-color: green;
+}
+.electric{
+    background-color: yellow;
+    border-color: rgb(127, 100, 0);
+}
+.psychic{
+    background-color: palevioletred;
+    border-color: rgb(255, 0, 106);
+}
+.fairy{
+    background-color: pink;
+    border-color: rgb(255, 0, 230);
+}
+.steel{
+    background-color: gray;
+    border-color: rgb(83, 83, 86);
+}
+.rock{
+    background-color: darkgoldenrod;
+    border-color: rgb(121, 93, 2);
+}
+.bug{
+    background-color: yellowgreen;
+    border-color: green;;
+}
+.ground{
+    background-color:rgb(245, 178, 120);
+    border-color: rgb(121, 93, 2);;
+}
+.ice{
+    background-color:aqua;
+    border-color: blue;
+}
+.normal{
+    background-color:lightgray;
+    border-color: rgb(83, 83, 86);
+}
+.dragon{
+    background-color: blueviolet;
+    border-color: rgb(86, 0, 166);
+}
+.fighting{
+    background-color: chocolate;
+    border-color: rgb(150, 54, 13);
+}
+.flying{
+    background-color:lightskyblue;
+    border-color: blue;
+}
+.ghost{
+    background-color: darkorchid;
+    border-color: rgb(86, 0, 166);
+}
+.poison {
+    background-color: purple;
+    border-color: rgb(87, 8, 136);
+}
+.dark{
+    background-color: rgb(132, 55, 0);
+    border-color: rgb(62, 30, 0);
+}
+
+.right-side{
+    width: 50%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.evo_chain{
+    width: 100%;
+    padding: 0 auto;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    margin: 20px auto;
+
+}
+
+.icon {
+    margin: 0 20px;
+}
+
+
+.evolve img{
+    width: 10vw;
+    max-width: 125px;
+}
+.evo_name{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ability{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+
+}
+.ability_container{
+    width: max-content;
+    
+}
+.ability_wrap{
+    display: flex;
+    justify-content: baseline;
+}
+.ability_wrap p:first-child{
+    padding-right:20px;
+    font-weight: 500;
+}
+
+.stats{
+    width: max(80%,360px);
+    margin: 20px auto;
+    margin-bottom: 0;
+}
+.stat{
+    display: flex;
+    align-items: center;
+}
+.stat_wrap{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid #000000;
+}
+.stat p{
+    margin: 5px;
+}
+.graph_wrap{
+    width:max-content;
+    display: flex;
+    margin-left: 10px;
+    
+}
+.graph{
+    width: 1px;
+    height: 10px;
+    background-color: yellowgreen;
+}
+.backButton{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #000000;
+    color: #000;
+    border-radius: 50px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.backButton p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.backButton:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+    .card-detail{
+        max-width: 600px;
+        min-width: 400px;
+        display: block;
+    }
+    .left-side{
+        width: 100%;
+        border-right: none;
+        border-bottom: 5px solid black;;
+    }
+    .right-side{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .evolve img {
+        width: max(60px,15vw);
+    }
+}

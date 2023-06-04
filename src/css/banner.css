@@ -1,0 +1,36 @@
+@keyframes bounce {
+    0% {
+        transform: translateY(-200px)
+    }
+    20%{
+        transform: translateY(-100px)
+    }
+    40%{
+        transform: translateY(-40px)
+    }
+    60%{
+        transform: translateY(-15px)
+    }
+    80%{
+        transform: translateY(-2px)
+    }
+    10%,30%,50%,70%,90%,100%{
+        transform: translateY(0);
+    }
+    
+}
+.header{
+    height: 400px;
+    width: 100%;
+    background: url('https://assets.website-files.com/622733c59bf20d8a074764f6/627a7569f1389244d2938298_pokemon-banner.png');
+    background-size:auto;
+    overflow: hidden;
+}
+
+.site-name{
+    font-size: 80px;
+    font-weight: 800;
+    color: #ffffff;
+    font-style: italic;
+    animation: bounce 2s ease ;
+}
